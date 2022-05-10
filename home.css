@@ -1,0 +1,885 @@
+#header{
+    background-color: #f5904d;
+    width: 100%;
+    height: 60px;
+    border: 1px solid orange;
+}
+
+#headerText{
+    font-weight:bold;
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    float:left;
+}
+
+#headerIcons{
+    margin-right: 8px;
+}
+
+#headerIcons a {
+    text-decoration: none;
+}
+
+#headerIcons a img {
+    height: 35px;
+    width: 37px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#body{
+    background-image: linear-gradient( rgba(38, 64, 165, 0),rgba(24, 51, 160, 0.70)), url("images/foodWallpaper.png"); 
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#LogoStyling{
+    border: 5px solid #e57a40;
+    height: 225px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 522px;
+    margin-top: 120px;
+    position: absolute;
+    background-color: white;
+}
+
+#DLogo{
+    margin-top:50px;
+    text-align: center;
+    font-size:80px;
+    font-weight: bold;
+    color: #e57a40;
+}
+
+#bodyText{
+    font-weight: bold;
+    color: white;
+    margin-top: 370px;
+    margin-left: 400px;
+    position: absolute;
+    font-family: ditot, serif;
+    font-size: 55px;
+}
+
+#dropdownOne{
+    margin-top: 480px;
+    margin-left: 220px;
+    width: 250px;
+    height: 50px;
+    font-family: ditot, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px; 
+}
+
+#dropdownTwo{
+    width: 300px;
+    height: 50px;
+    font-family: ditot, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px; 
+    margin-left: 1px;
+}
+
+#bodyTwo{
+    border: 3px solid #e57a40;;
+    width: 100%;
+    height: 450px;
+    background-color: #df9e79;
+}
+
+.smallBoxesBody{
+    border: 1px solid #e57a40;
+    width: 28%;
+    height: 162px;
+    margin-top: 40px;
+    margin-left: 60px;
+    float: left;
+    text-align: center;
+    box-shadow: 6px 6px #1b1a5ac9;
+    background-color: white;
+}  
+
+.smallBoxesBody div{
+    width: 48%;
+    float:left; 
+}
+
+.anchor{
+    margin-top: 55px;
+    margin-left:10px;
+} 
+
+.smallBoxesBody img{
+    width: 100%;
+    height: 162px;
+} 
+
+.smallBoxesBody a{
+    color: #eb661f;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*  Media Queries */
+
+@media only screen and (min-width:280px) {
+
+    #headerText {
+        margin-top: 18px;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+    #headerIcons a img {
+        height: 30px;
+        width: 35px;
+        margin-top: 17px;
+        margin-right: -3px;
+        margin-left: 1px;
+    }
+
+    #LogoStyling{
+        height: 110px;
+        width: 39%;
+        border-radius: 50%;
+        margin-top: 177px;
+        margin-left: 63px;
+    }
+    
+    #DLogo{
+        margin-top: 24px;
+        font-size: 60px;
+        margin-left: 10px;
+    }
+
+    #bodyText{    
+        margin-left: 29px;
+        font-size: 21px;
+        margin-top: 325px;
+    }
+    
+    #dropdownOne {
+        margin-left: 30px;
+        width: 204px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 394px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 40px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    #body{
+        height: 574px;
+    }
+    .smallBoxesBody{
+        width: 95%;
+        height: 157px;
+        margin-top: 30px;
+        margin-left: 3px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 22px;
+        margin-top: -177px;
+        margin-right: 26px;
+    }
+
+.smallBoxesBody img{
+    height: 156px; 
+    }   
+}
+
+@media only screen and (min-width:300px) {
+
+    #LogoStyling{
+        height: 110px;
+        width: 35%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 87px;
+    }
+    
+    #DLogo{
+        margin-top: 24px;
+        font-size: 60px;
+        margin-left: 10px;
+    }
+
+    #bodyText{    
+        margin-left: 29px;
+        font-size: 24px;
+    }
+    
+    #dropdownOne {
+        margin-left: 45px;
+        width: 204px;
+        height: 40px;
+        font-size: 13px;
+        margin-top: 434px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 40px;
+        font-size: 13px;
+        margin-left: 45px;
+    }
+    .smallBoxesBody{
+        width: 88%;
+        height: 159px;
+        margin-top: 30px;
+        margin-left: 9px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 22px;   
+}
+.smallBoxesBody img{
+    height: 159px; 
+    }   
+}
+@media only screen and (min-width:350px) {
+
+    #headerIcons a img {
+        margin-right: 9px;
+    }
+
+    #LogoStyling{
+        height: 133px;
+        width: 35%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 98px;
+    }
+    
+    #DLogo{
+        margin-top: 29px;
+        font-size: 65px;
+        margin-left: 10px;
+    }
+
+    #bodyText{    
+        margin-left: 36px;
+        font-size: 29px;
+        margin-top: 361px;
+    }
+    
+    #dropdownOne {
+        margin-left: 71px;
+        width: 204px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 434px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px;
+        margin-left: 71px;
+    }
+    .smallBoxesBody{
+        width: 82%;
+        height: 159px;
+        margin-top: 30px;
+        margin-left: 34px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 22px;
+        margin-right: 36px;
+        margin-top: 15px;  
+}
+.smallBoxesBody img{
+    height: 159px; 
+    }   
+}
+
+@media only screen and (min-width:390px) {
+
+    #LogoStyling{
+        height: 133px;
+        width: 32%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 120px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 65px;
+    }
+
+    #bodyText{    
+        margin-left: 42px;
+        font-size: 33px;
+    }
+    
+    #dropdownOne {
+        margin-left: -26px;
+        width: 204px;
+        height: 45px;
+        font-size: 15px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    .smallBoxesBody{
+        width: 68%;
+        height: 159px;
+        margin-top: 30px;
+        margin-left: 63px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 23px;   
+}
+.smallBoxesBody img{
+    height: 159px; 
+    }   
+}
+
+@media only screen and (min-width:450px) {
+
+    #LogoStyling{
+        height: 133px;
+        width: 28%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 141px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 65px;
+    }
+
+    #bodyText{    
+        margin-left: 42px;
+        font-size: 37px;
+    }
+    
+    #dropdownOne {
+        margin-left: -56px;
+        width: 203px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+    }
+    .smallBoxesBody{
+        width: 58%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 25px;   
+}
+}
+
+
+@media only screen and (min-width:500px) {
+
+    #LogoStyling{
+        height: 133px;
+        width: 26%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 160px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 65px;
+    }
+
+    #bodyText{    
+        margin-left: 59px;
+        font-size: 39px;
+    }
+    
+    #dropdownOne {
+        margin-left: -28px;
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+        margin-left: 129px;
+    }
+    .smallBoxesBody{
+        width: 58%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }  
+
+    #bodyTwo{ 
+        height: 1193px;
+    }
+
+    .smallBoxesBody a{
+        font-size: 25px;   
+}
+}
+@media only screen and (min-width:580px) {
+
+    #LogoStyling{
+        height: 133px;
+        width: 21%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 191px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 65px;
+    }
+
+    #bodyText{    
+        margin-left: 109px;
+        font-size: 39px;
+    }
+    
+    #dropdownOne {
+        margin-left: -85px;
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+        margin-left: 1px;
+    }
+    .smallBoxesBody{
+        width: 45%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }  
+
+    #bodyTwo{ 
+        border: 3px solid #e57a40;
+        width: 100%;
+        height: 633px;
+     
+    }
+
+    .smallBoxesBody a{
+        font-size: 25px;   
+}
+}
+
+@media only screen and (min-width:700px) {
+
+    #LogoStyling{
+        height: 127px;
+        width: 18%;
+        border-radius: 50%;
+        margin-top: 187px;
+        margin-left: 262px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 65px;
+    }
+
+    #bodyText{    
+        margin-left: 164px;
+        font-size: 39px;
+    }
+    
+    #dropdownOne {
+        margin-left: -27px;
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+        margin-top:455px;
+    }
+    
+    #dropdownTwo{
+        width: 204px;
+        height: 45px;
+        font-size: 15px; 
+        margin-left: 1px;
+    }
+    .smallBoxesBody{
+        width: 37%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 49px;
+    }  
+
+    #bodyTwo{ 
+        border: 3px solid #e57a40;
+        width: 100%;
+        height: 633px;
+        background-color: #df9e79;
+    }
+
+    .smallBoxesBody a{
+        font-size: 25px;   
+}
+} 
+
+@media only screen and (min-width:750px) {
+
+    #LogoStyling{
+        height: 161px;
+        width: 21%;
+        border-radius: 50%;
+        margin-left: 279px;
+        margin-top: 172px;
+    }
+    
+    #DLogo{
+        margin-top: 36px;
+        font-size: 81px;
+    }
+
+    #bodyText{    
+        margin-left: 175px;
+        font-size: 43px;
+    }
+    
+    #dropdownOne {
+        margin-left: -31px;
+        margin-top: 455px;
+        width: 255px;
+        height: 54px;
+        font-size: 19px;
+    }
+    
+    #dropdownTwo{
+        width: 255px;
+        height: 54px;
+        font-size: 19px;
+        margin-left: 1px;
+    }
+    .smallBoxesBody{
+        width: 41%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 46px;
+    }  
+
+    #bodyTwo{ 
+        border: 3px solid #e57a40;
+        width: 100%;
+        height: 633px;
+        background-color: #df9e79;
+    }
+
+
+    .smallBoxesBody a{
+        font-size: 25px;   
+}
+}
+
+@media only screen and (min-width:900px) and (max-width:1099px){
+
+    #LogoStyling{
+        height: 155px;
+        width: 17%;
+        border-radius: 50%;
+        margin-left: 350px;
+        margin-top: 165px;
+    }
+    
+    #DLogo{
+        margin-top: 26px;
+        font-size: 84px;
+    }
+
+    #bodyText{    
+        margin-left: 261px;
+        font-size: 43px;
+    }
+    
+    #dropdownOne {
+        margin-left: 17px;
+        width: 270px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 476px;
+    }
+    
+    #dropdownTwo{
+        width: 280px;
+        height: 45px;
+        font-size: 18px; 
+        margin-left:1px;
+    }
+    .smallBoxesBody{
+        width: 37%;
+        height: 162px;
+        margin-top: 30px;
+        margin-left: 76px;
+    }  
+
+    #bodyTwo{
+       
+        border: 3px solid #e57a40;
+        width: 100%;
+        height: 670px;
+        background-color: #df9e79;
+    }
+}
+
+
+@media only screen and (min-width:1100px) and (max-width:1300px){
+    #LogoStyling{
+        height: 186px;
+    width: 16%;
+    border-radius: 50%;
+    margin-left: 452px;
+    margin-top: 136px;
+    }
+    
+    #DLogo{
+        margin-top: 34px;
+        font-size: 90px;
+    }
+
+    #bodyText{    
+        margin-left: 333px;
+        font-size: 52px;
+    }
+    
+    #dropdownOne{
+        margin-left:127px;
+    }
+
+    .smallBoxesBody{
+        margin-top: 39px;
+        margin-left: 48px;
+        width: 28%;
+        height: 162px;
+    }  
+
+    #bodyTwo{
+        height: 454px;
+    }
+}
+
+
+@media only screen and (min-width:1301px) and (max-width:1430px){
+    #LogoStyling{
+        height: 190px;
+        width: 16%;
+        border-radius: 50%;
+        margin-left: 479px;
+        margin-top: 133px;
+    }
+    
+    #DLogo{
+        margin-top: 42px;
+        font-size: 90px;
+    }
+
+    #bodyText{    
+        margin-left: 360px;
+    }
+    
+    #dropdownOne{
+        margin-left:186px;
+    }
+
+    .smallBoxesBody{
+        margin-top: 39px;
+        margin-left: 48px;
+        width: 28%;
+        height: 162px;
+    }  
+
+    #bodyTwo{
+        height: 454px;
+    }
+}
+
+@media only screen and (min-width:1431px) and (max-width:1651px){
+    #LogoStyling{
+        height: 227px;
+        width: 16%;
+        border-radius: 50%;
+        margin-left: 571px;
+        margin-top: 101px;
+    }
+    
+    #DLogo{
+        margin-top: 60px;
+        font-size: 100px;
+    }
+
+    #bodyText{    
+        margin-left: 490px;
+    }
+    
+    #dropdownOne{
+        margin-left:293px;
+    }
+
+    .smallBoxesBody{
+        margin-top: 39px;
+        margin-left: 60px;
+        width: 28%;
+        height: 162px;
+    }  
+
+    #bodyTwo{
+        height: 505px;
+    }
+}
+
+@media only screen and (min-width:1650px) and (max-width:1800px){
+    #LogoStyling{
+        height: 248px;
+        width: 16%;
+        border-radius: 50%;
+        margin-left: 632px;
+        margin-top: 79px;
+    }
+    
+    #DLogo{
+        margin-top: 60px;
+        font-size: 114px;
+    }
+
+    #bodyText{    
+        margin-left: 530px;
+    }
+    
+    #dropdownOne{
+        margin-left:320px;
+    }
+
+    .smallBoxesBody{
+        
+        margin-top: 35px;
+        margin-left: 161px;
+        width: 30%;
+        height: 202px;
+    }
+
+    .smallBoxesBody img {
+        width: 100%;
+        height: 202px;
+    }
+    
+    #bodyTwo{
+        height: 775px;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width:2000px){
+
+    #headerText{
+        margin-left: 25px;
+        font-size: 40px;
+        margin-top: 9px;      
+    }
+
+    #headerIcons a img {
+        height: 43px;
+        width: 57px;
+        margin-top: 9px;
+        margin-right: 18px;
+        margin-left: 1px;
+    }
+        
+    #LogoStyling{
+        height: 265px;
+        width: 15%;
+        border-radius: 50%;
+        margin-left: 690px;
+        margin-top: 63px;
+    }
+    
+    #DLogo{
+        margin-top:78px; 
+        font-size:100px;
+    }
+    
+    #bodyText{    
+        margin-left: 600px;
+        margin-top: 362px;
+    }
+    
+    #dropdownOne{
+        margin-left: 370px;
+    }
+    
+    .smallBoxesBody{
+        width: 23%;
+        height: 173px;
+        margin-top: 30px;
+        margin-left: 138px;  
+    }  
+    
+    .smallBoxesBody img{
+        width: 100%;
+        height: 173px;
+    } 
+
+    #bodyTwo{
+        height: 484px;
+    }
+    }
+
+
+
+
+
